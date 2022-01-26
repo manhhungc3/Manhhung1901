@@ -32,6 +32,8 @@
     height: 22px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    object-position: center;
 }
 
 .header__navbar-user-name {
@@ -45,6 +47,7 @@
 }
 
 .header__navbar-user-menu {
+
     position: absolute;
     z-index: 1;
     padding-left: 0;
@@ -61,11 +64,11 @@
 .header__navbar-user-menu::before {
     content: "";
     position: absolute;
-    border-width: 20px 27px;
+    border-width: 14px 17px;
     border-style: solid;
     border-color: transparent transparent var(--white-color) transparent;
-    top: -28px;
-    right: 4px;
+    top: -24px;
+    right: 24px;
 }
 
 .header__navbar-user-menu::after {
@@ -88,6 +91,7 @@
     font-size: 1.4rem;
     padding: 8px 16px;
     display: block;
+
 }
 
 .header__navbar-user-item a:first-child {
