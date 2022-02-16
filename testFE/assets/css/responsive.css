@@ -1,0 +1,44 @@
+@media (max-width: 63.9375em) {
+
+
+}
+
+@media(min-width: 46.25em) and (max-width: 63.9375em) {
+    .introduce__item {
+        width: 50% !important;
+    }
+    .achievement__content {
+
+    }
+    .achievement__content-image ,
+    .achievement__content-info {
+        width: 100% !important;
+    }
+
+    .plan-items {
+        width: 50% !important;
+    }
+    .posts-items {
+        width: 50% !important;
+    }
+}
+
+
+@media (max-width: 46.1875em) {
+    .introduce__item {
+        width: 100% !important;
+    }
+    
+    .achievement__content-image ,
+    .achievement__content-info {
+        width: 100% !important;
+    }
+
+    .plan-items {
+        width: 100% !important;
+    }
+    .posts-items {
+        width: 100% !important;
+    }
+
+}
