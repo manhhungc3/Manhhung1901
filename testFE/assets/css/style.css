@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* flex-wrap: wrap; */
 }
 
 .navbar__list {
@@ -49,6 +50,7 @@
 .introduce {
     margin-bottom: 50px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .introduce__item {
@@ -108,6 +110,7 @@
 
 .achievement__content {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .achievement__content-image{
@@ -124,6 +127,7 @@
 
 .slide-image  {
     margin-left: 30px;
+    width: 100%;
 }
 
 .achievement__content-info {
@@ -272,12 +276,7 @@
 .posts-image {
     width: 100%;
 }
-.posts-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
+
 .posts-note {
     position: absolute;
     left: 0;
