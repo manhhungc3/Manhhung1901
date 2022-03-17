@@ -93,11 +93,11 @@ img {
 
 .product__item {
     width: calc(100% / 3);
-    margin-right: 20px;
+    padding-right: 20px;
 }
 
 .product__item:last-child {
-    margin-right: 0 !important;
+    /* padding-right: 0 !important; */
 }
 
 .item__content-left {
