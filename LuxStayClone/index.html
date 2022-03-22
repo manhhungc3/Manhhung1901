@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Đặt phòng homestay nhanh chóng , trải nghiệm hạng sang tại
+            Luxstay</title>
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="./assets/img/favicon.png">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.css">
+        <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+        <link rel="stylesheet"
+            href="./assets/vendor/owlcarousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet"
+            href="./assets/vendor/owlcarousel/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./assets/vendor/aos/aos.css">
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+
+
+
+    </head>
+
+    <body>
+        <div class="app">
+            <header class="header">
+                <div class="grid">
+                    <div class="box__logo-search">
+                        <div class="box__logo">
+                            <div class="header__logo">
+                                <svg version="1.1" viewBox="0 0 50 50"
+                                    class="svg-icon svg-fill header__logo-icon" style="width: 50px;
+                                    height: 50px;"><path pid="0" d="M25.093
+                                        0c13.781.06 24.94 11.317 24.882
+                                        25.106C49.917 38.894 38.663 50.058 24.88 50
+                                        11.1 49.942-.059 38.683.001 24.894.057
+                                        11.106 11.31-.058 25.092 0zm11.801
+                                        31.9L14.398 16.053c.241-.26.48-.518.74-.777
+                                        2.7-2.687 5.971-4.031 9.775-4.015 3.804.015
+                                        7.064 1.388 9.741
+                                        4.098.238.241.476.482.694.743l-5.951 4.133
+                                        2.381 1.688 5.153-3.576v.02L39.33
+                                        16.7c-.692-1.203-1.584-2.325-2.616-3.39-3.231-3.292-7.167-4.947-11.788-4.967-4.6-.019-8.53
+                                        1.603-11.809 4.867a17.806 17.806 0 00-2.682
+                                        3.408l1.429 1.004 23.429
+                                        16.51c-.24.26-.48.518-.74.777-2.7
+                                        2.687-5.971 4.011-9.775
+                                        3.996-3.803-.016-7.063-1.37-9.74-4.08-.258-.26-.496-.521-.734-.782l6.111-4.251-.139-.181-2.183-1.528-5.373
+                                        3.735v-.021l-2.377 1.65a17.824 17.824 0
+                                        002.654 3.43c3.253 3.291 7.169 4.946 11.769
+                                        4.965 4.62.021 8.549-1.602 11.83-4.866
+                                        1.06-1.075 1.96-2.21
+                                        2.682-3.406l-2.383-1.67z"></path></svg>
+                            </div>
+                            <div id="header__search" class="header__search">
+                                <div class="search__location">
+                                    <div class="booking__field">
+                                        <div class="booking__icon">
+                                            <i class="ti-search"></i>
+                                        </div>
+                                        <div class="booking__input">
+                                            <input type="text" autocomplete="off" placeholder="Tìm kiếm" class="booking__input-text">
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="search__date">
+                                    <div class="booking__field">
+                                        <div class="booking__icon">
+                                            <i class="ti-calendar"></i>
+                                        </div>
+                                        <div class="booking__input">
+                                            <button class="btn search__date-btn">Ngày</button>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div id="search__guest" class="search__guest is-relative">
+                                    <div id="guest__btn" class="booking__field">
+                                        <div class="booking__icon">
+                                            <i class="ti-user"></i>
+                                        </div>
+                                        <div class="booking__input">
+                                            <button class="btn search__date-btn">Số khách</button>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="guest__box" class="guest__box">
+                                        <div class="select__number">
+                                                <div class="select__number-title">
+                                                    <p class="select__number-name">Người lớn</p>
+                                                </div>
+                                                <div class="select__number-input">
+                                                    <span class="number__input-decrease is-disabled">
+                                                        <i class="fas fa-minus"></i>
+                                                    </span>
+                                                    <div class="number__input">
+                                                        0
+                                                    </div>
+                                                    <span class="number__input-increase">
+                                                        <i class="fas fa-plus"></i>
+                                                    </span>
+                                                </div>
+                                        </div>
+    
+                                        <div class="select__number">
+                                                <div class="select__number-title">
+                                                    <p class="select__number-name">Trẻ em</p>
+                                                    <p class="select__number-name-small">Tuổi từ 2 - 12</p>
+                                                </div>
+                                                <div class="select__number-input">
+                                                    <span class="number__input-decrease is-disabled">
+                                                        <i class="fas fa-minus"></i>
+                                                    </span>
+                                                    <div class="number__input">
+                                                        0
+                                                    </div>
+                                                    <span class="number__input-increase">
+                                                        <i class="fas fa-plus"></i>
+                                                    </span>
+                                                </div>
+                                        </div>
+    
+                                        <div class="select__number">
+                                                <div class="select__number-title">
+                                                    <p class="select__number-name">Trẻ sơ sinh</p>
+                                                    <p class="select__number-name-small">Dưới 2 tuổi</p>
+                                                </div>
+                                                <div class="select__number-input">
+                                                    <span class="number__input-decrease is-disabled">
+                                                        <i class="fas fa-minus"></i>
+                                                    </span>
+                                                    <div class="number__input">
+                                                        0
+                                                    </div>
+                                                    <span class="number__input-increase">
+                                                        <i class="fas fa-plus"></i>
+                                                    </span>
+                                                </div>
+                                        </div>
+                                        <div class="select__action">
+                                                <button class="select__action-btn">Xóa</button>
+                                                <button class="select__action-btn select__action-btn-primary">Áp dụng</button>
+                                        </div> 
+                                    </div>
+                                    
+                                </div>
+                                
+                                <button type="button" class="btn search__button">
+                                    <i class="ti-search"></i>
+                                </button>
+                            </div>
+                            
+                        </div>
+                        <div class="box__menu">
+                            <ul class="menu">
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Guide</a>
+                                </li>
+
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link is-become-host">Host</a>
+                                </li>
+
+                                <li class="menu__item js-btn--registration">
+                                    <a href="#" class="menu__link">Đăng ký</a>
+                                </li>
+
+                                <li class="menu__item js-btn--login">
+                                    <a href="#" class="menu__link">Đăng nhập</a>
+                                </li>
+
+                                <li class="menu__item">
+                                    <div class="menu__language">
+                                        <span class="menu__link btn--dropdown">
+                                            <img src="./assets/img/vi.svg" alt="" width="24px" height="24px">
+                                            <span class="btn--dropdown-text">VND</span>
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="grid__container">
+                    <div class="slideshow mb-60" data-aos="zoom-in">
+                        <div class="owl-carousel owl-theme owl-slideshow">
+                            <div class="item">
+                                <img src="./assets/img/slide1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./assets/img/slide2.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="greeting mb-60" data-aos="zoom-in">
+                        <div class="greeting__title mb-18">
+                            <h3>Chào mừng đến với LuxStay!</h3>
+                        </div>
+                        <p class="greeting__slogan">Đặt chỗ ở, homestay, cho thuê xe, trải nghiệm và nhiều hơn nữa trên Luxstay</p>
+                        <p class="greeting__link">
+                            <a href="#">Đăng nhập</a>
+                            <span>hoặc</span>
+                            <a href="#">Đăng ký</a>
+                             để trải nghiệm ! 
+                        </p>
+                    </div>
+
+                    <div class="addressHot mb-60" data-aos="zoom-in">
+                        <div class="title">
+                            <h2>Địa điểm nổi bật</h2>
+                            <p class="slogan">Cùng Luxstay bắt đầu chuyến hành trình chinh phục thế giới của bạn</p>
+                        </div>
+                        <div class="addressHot__slideshow">
+                            <button class="control__SlideShow prev-SlideShow prev-addressShow">
+                                <i class="fas fa-chevron-left"></i> 
+                            </button>
+                            <div class="owl-addressSlideShow owl-carousel owl-theme ">
+                                
+                                <div class="item">
+                                    <a href="#" class="item__link">
+                                        <div class="product is-relative">
+                                            <div class="product__cover">
+                                                <img src="./assets/img/location_1_1559734709.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="product__content">
+                                            <div class="product__title">Hà Nội</div>
+                                            <span class="product__price">
+                                                <b>2476</b>
+                                                chỗ ở
+                                            </span>
+                                        </div>
+                                    </a>
+                                  
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="item__link">
+                                        <div class="product is-relative">
+                                            <div class="product__cover">
+                                                <img src="./assets/img/location_2_1559735011.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="product__content">
+                                            <div class="product__title">TP.Hồ Chí Minh</div>
+                                            <span class="product__price">
+                                                <b>2141</b>
+                                                chỗ ở
+                                            </span>
+                                        </div>
+                                    </a>
+                                  
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="item__link">
+                                        <div class="product is-relative">
+                                            <div class="product__cover">
+                                                <img src="./assets/img/location_3_1559303118.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="product__content">
+                                            <div class="product__title">Vũng Tàu</div>
+                                            <span class="product__price">
+                                                <b>1234</b>
+                                                chỗ ở
+                                            </span>
+                                        </div>
+                                    </a>
+                                  
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="item__link">
+                                        <div class="product is-relative">
+                                            <div class="product__cover">
+                                                <img src="./assets/img/location_4_1559786177.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="product__content">
+                                            <div class="product__title">Đà Lạt</div>
+                                            <span class="product__price">
+                                                <b>1426</b>
+                                                chỗ ở
+                                            </span>
+                                        </div>
+                                    </a>
+                                  
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="item__link">
+                                        <div class="product is-relative">
+                                            <div class="product__cover">
+                                                <img src="./assets/img/location_5_1559303173.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="product__content">
+                                            <div class="product__title">Đà Nẵng</div>
+                                            <span class="product__price">
+                                                <b>4356</b>
+                                                chỗ ở
+                                            </span>
+                                        </div>
+                                    </a>
+                                  
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="item__link">
+                                        <div class="product is-relative">
+                                            <div class="product__cover">
+                                                <img src="./assets/img/location_6_1559373089.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="product__content">
+                                            <div class="product__title">Nha Trang</div>
+                                            <span class="product__price">
+                                                <b>1234</b>
+                                                chỗ ở
+                                            </span>
+                                        </div>
+                                    </a>
+                                  
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="item__link">
+                                        <div class="product is-relative">
+                                            <div class="product__cover">
+                                                <img src="./assets/img/location_7_1559786196.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="product__content">
+                                            <div class="product__title">Quảng Ninh</div>
+                                            <span class="product__price">
+                                                <b>1234</b>
+                                                chỗ ở
+                                            </span>
+                                        </div>
+                                    </a>
+                                  
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="item__link">
+                                        <div class="product is-relative">
+                                            <div class="product__cover">
+                                                <img src="./assets/img/location_8_1559786202.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="product__content">
+                                            <div class="product__title">Hội An</div>
+                                            <span class="product__price">
+                                                <b>1234</b>
+                                                chỗ ở
+                                            </span>
+                                        </div>
+                                    </a>
+                                  
+                                </div>
+                                
+                            </div>
+                            <button class="control__SlideShow next-SlideShow next-addressShow">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>                       
+                    </div>
+
+                    <div class="endow mb-60" data-aos="zoom-in">
+                        <div class="is-flex jbetween align-end">
+                            <div class="title">
+                                <h2>Ưu đãi độc quyền</h2>
+                                <p class="slogan">Chỉ có tại Luxstay, hấp dẫn và hữu hạn, book ngay!</p>
+                            </div> 
+                            <a href="#" class="endow__link text-orange mb-18">Xem thêm</a>
+                        </div>
+                        
+                        <div class="endowshow mb-60">
+                            <div class="owl-carousel owl-theme owl-endowshow">
+                                <div class="endow__item">
+                                    <a href="#" class="item__link">
+                                        <img src="./assets/img/event_1_1627881441.jpg" alt="">
+                                    </a>
+                                  
+                                </div>
+                                <div class="endow__item">
+                                    <a href="#" class="item__link">
+                                        <img src="./assets/img/event_2_1614658965.jpg" alt="">
+                                    </a>
+                                  
+                                </div>
+
+                                <div class="endow__item">
+                                    <a href="#" class="item__link">
+                                        <img src="./assets/img/event_3_1596604498.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="suggest mb-60" data-aos="zoom-in">
+                        <div class="title">
+                            <h2>Gợi ý khám phá</h2>
+                            <p class="slogan">Để mỗi chuyến đi là một hành trình truyền cảm hứng, mỗi căn phòng là một khoảng trời an yên</p>
+                        </div>
+
+                        <div class="addressHot__slideshow">
+                            <button class="control__SlideShow prev-SlideShow prev-aparmentShow">
+                                <i class="fas fa-chevron-left"></i> 
+                            </button>
+                            <div class="owl-aparmentShow owl-carousel owl-theme"> 
+                                <div class="item">
+                                    <a href="#">
+                                        
+                                            <div class="article__content-img">
+                                                <img src="./assets/img/apartment1.jpg" alt="">
+                                            </div>
+                                            <div class="article__content">
+                                                <div class="article__title">Vi vu ngoại thành hà nội</div>
+                                                <p class="article__excerpt">
+                                                    Trải nghiệm không gian thoáng đãng cho chuyến đi ngay gần Hà Nội
+                                                </p>
+                                            </div>
+                                    </a>
+
+                                </div> 
+
+                                <div class="item">
+                                    <a href="#">
+                                        
+                                            <div class="article__content-img">
+                                                <img src="./assets/img/apartment2.jpg" alt="">
+                                            </div>
+                                            <div class="article__content">
+                                                <div class="article__title">Vũng tàu biệt thự hồ bơi</div>
+                                                <p class="article__excerpt">
+                                                    Những căn biệt thự có hồ bơi dành cho kỳ nghỉ của bạn tại Vũng Tàu
+                                                </p>
+                                            </div>
+                                    </a>
+
+                                </div> 
+
+                                <div class="item">
+                                    <a href="#">
+                                        
+                                            <div class="article__content-img">
+                                                <img src="./assets/img/apartment3.jpg" alt="">
+                                            </div>
+                                            <div class="article__content">
+                                                <div class="article__title">Hà nội nội thành lãng mạng</div>
+                                                <p class="article__excerpt">
+                                                    Không gian lãng mạn dành cho cặp đôi tại trung tâm Hà Nội
+                                                </p>
+                                            </div>
+                                    </a>
+
+                                </div> 
+
+                                <div class="item">
+                                    <a href="#">
+                                        
+                                            <div class="article__content-img">
+                                                <img src="./assets/img/apartment4.jpg" alt="">
+                                            </div>
+                                            <div class="article__content">
+                                                <div class="article__title">Sài gòn cần là có ngay</div>
+                                                <p class="article__excerpt">
+                                                    Những căn homestay có 01 phòng ngủ tại Sài Gòn có thể đặt nhanh chóng
+                                                </p>
+                                            </div>
+                                    </a>
+
+                                </div> 
+
+                                <div class="item">
+                                    <a href="#">
+                                        
+                                            <div class="article__content-img">
+                                                <img src="./assets/img/apartment5.jpg" alt="">
+                                            </div>
+                                            <div class="article__content">
+                                                <div class="article__title">Bể bơi & BBQ</div>
+                                                <p class="article__excerpt">
+                                                    Trải nghiệm đẳng cấp tại những căn homestay có bể bơi đẹp và khu vực BBQ ấm cúng.
+                                                </p>
+                                            </div>
+                                    </a>
+
+                                </div> 
+                            </div>
+                            <button class="control__SlideShow next-SlideShow next-aparmentShow">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>                   
+                    </div>
+
+                    <div class="post mb-60" data-aos="zoom-in">
+                        <div class="title">
+                            <h2>Gợi ý khám phá</h2>
+                            <p class="slogan">Để mỗi chuyến đi là một hành trình truyền cảm hứng, mỗi căn phòng là một khoảng trời an yên</p>
+                        </div>
+                        <div class="addressHot__slideshow">
+                            <button class="control__SlideShow prev-SlideShow prev-postSlideShow">
+                                <i class="fas fa-chevron-left"></i> 
+                            </button>
+                            <div class="owl-postSlideShow owl-carousel owl-theme ">
+                                
+                                <div class="post__item">
+                                    <a href="#" class="item__link">
+                                        <div class="post__inner is-flex column is-absolute">
+                                            <div class="post__header">
+                                                <a href="#" class="post__category">Thông tin homestay</a>
+                                            </div>
+                                            <div class="post__title">
+                                                <a href="#">
+                                                    Trải nghiệm thú vị ở sở thú Zoodoo Đà Lạt                                          
+                                                </a> 
+                                                   
+                                            </div>
+                                        </div>
+                                    </a>                                
+                                </div> 
+                                
+                                <div class="post__item">
+                                    <a href="#" class="item__link">
+                                        <div class="post__inner is-flex column is-absolute">
+                                            <div class="post__header">
+                                                <a href="#" class="post__category">Hội An</a>
+                                            </div>
+                                            <div class="post__title">
+                                                Hội An sẽ lập chốt quản lý du khách đeo khẩu trang khi vào thành phố
+                                            </div>
+                                        </div>
+                                    </a>                                
+                                </div>  
+
+                                <div class="post__item">
+                                    <a href="#" class="item__link">
+                                        <div class="post__inner is-flex column is-absolute">
+                                            <div class="post__header">
+                                                <a href="#" class="post__category">Vũng Tàu</a>
+                                            </div>
+                                            <div class="post__title">
+                                                List homestay Vũng Tàu cho nhóm đông người, vui cười hưởng giá tốt!
+                                            </div>
+                                        </div>
+                                    </a>                                
+                                </div>  
+
+                                <div class="post__item">
+                                    <a href="#" class="item__link">
+                                        <div class="post__inner is-flex column is-absolute">
+                                            <div class="post__header">
+                                                <a href="#" class="post__category">TP.Hồ Chí Minh</a>
+                                            </div>
+                                            <div class="post__title">
+                                                Những điều nên tuân thủ trước khi trả phòng homestay để lợi cả đôi đường
+                                            </div>
+                                        </div>
+                                    </a>                                
+                                </div>  
+                                
+                                
+                            </div>
+                            <button class="control__SlideShow next-SlideShow next-postSlideShow">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div> 
+                    </div>
+
+                    <div class="card mb-60" data-aos="zoom-in">
+                        <div class="title">
+                            <h2>Gợi ý khám phá</h2>
+                            <p class="slogan">Để mỗi chuyến đi là một hành trình truyền cảm hứng, mỗi căn phòng là một khoảng trời an yên</p>
+                        </div>
+                        <div class="owl-carousel owl-theme owl-cardShow">
+                            <div class="card__item">
+                                <a href="#" class="item__link">
+                                    <img src="./assets/img/card1.jpg" alt="">
+                                </a>
+                              
+                            </div>
+                            <div class="card__item">
+                                <a href="#" class="item__link">
+                                    <img src="./assets/img/card2.jpg" alt="">
+                                </a>
+                              
+                            </div>
+
+                            <div class="card__item">
+                                <a href="#" class="item__link">
+                                    <img src="./assets/img/card3.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="card__item">
+                                <a href="#" class="item__link">
+                                    <img src="./assets/img/card4.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="card__item">
+                                <a href="#" class="item__link">
+                                    <img src="./assets/img/card5.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="introduction mb-60" data-aos="zoom-in">
+                        <div class="row">
+                            <div class="col-md-6 app-introduction">
+                                <svg version="1.1" viewBox="0 0 244 50" class="mb-18 mb--sm-42 app-introduce__logo svg-icon svg-fill">
+                                    <path
+                                        pid="0"
+                                        d="M25.093 0c13.781.06 24.94 11.317 24.882 25.106C49.917 38.894 38.663 50.058 24.88 50 11.1 49.942-.059 38.683.001 24.894.057 11.106 11.31-.058 25.092 0zm11.801 31.9L14.398 16.053c.241-.26.48-.518.74-.777 2.7-2.687 5.971-4.031 9.775-4.015 3.804.015 7.064 1.388 9.741 4.098.238.241.476.482.694.743l-5.951 4.133 2.381 1.688 5.153-3.576v.02L39.33 16.7c-.692-1.203-1.584-2.325-2.616-3.39-3.231-3.292-7.167-4.947-11.788-4.967-4.6-.019-8.53 1.603-11.809 4.867a17.806 17.806 0 00-2.682 3.408l1.429 1.004 23.429 16.51c-.24.26-.48.518-.74.777-2.7 2.687-5.971 4.011-9.775 3.996-3.803-.016-7.063-1.37-9.74-4.08-.258-.26-.496-.521-.734-.782l6.111-4.251-.139-.181-2.183-1.528-5.373 3.735v-.021l-2.377 1.65a17.824 17.824 0 002.654 3.43c3.253 3.291 7.169 4.946 11.769 4.965 4.62.021 8.549-1.602 11.83-4.866 1.06-1.075 1.96-2.21 2.682-3.406l-2.383-1.67zm45.839 2.652l-12.45-.05.096-21.789a.957.957 0 00-.965-.945l-.678-.003a.96.96 0 00-.974.939v.047c-.048.095-.05.236-.05.33l-.098 22.636a1.337 1.337 0 001.351 1.326l13.805.056a.958.958 0 00.973-.938l.003-.662a1.037 1.037 0 00-1.013-.946v-.001zm27.64-22.67l-.871-.003c-.563-.003-1.027.42-1.027.937l-.075 15.878c-.014 3.157-3.252 5.735-7.197 5.72-3.943-.014-7.158-2.618-7.144-5.775l.123-15.5.052-.282a.957.957 0 00-.201-.756 1.128 1.128 0 00-.767-.332l-.87-.004c-.513-.002-.924.326-1.028.75a.857.857 0 00-.156.47l-.073 15.69c-.02 4.616 4.47 8.402 9.95 8.424 5.48.022 10.004-3.73 10.025-8.3l.122-15.5.054-.282a.952.952 0 00-.203-.755c-.152-.189-.458-.379-.714-.38zm48.638 11.226c-3.275-1.249-6.696-2.496-6.688-4.393.01-2.42 2.721-4.401 6.05-4.387 3.331.014 6.025 2.017 6.014 4.436l-.002.38a.96.96 0 00.961.953l.675.003a.96.96 0 00.971-.945v-.38c.009-1.66-.709-3.276-2.006-4.515-1.635-1.618-4.092-2.532-6.65-2.494-4.873-.02-8.698 3.047-8.715 6.938.03 3.748 4.416 5.38 8.656 6.962 3.324 1.247 6.795 2.495 6.785 4.487-.01 2.372-3.155 4.399-6.775 4.385-3.668-.016-6.747-2.07-6.737-4.44l.001-.38a.961.961 0 00-.96-.954l-.676-.002a.96.96 0 00-.97.945v.38c-.018 3.843 4.215 6.991 9.38 7.012 5.163.022 9.423-3.092 9.44-6.934-.033-3.796-4.464-5.427-8.754-7.057zM193.66 11.84l-18.844-.076c-.547-.003-.996.42-.999.94l-.002.66c-.002.52.443.946.99.949l8.103.032-.095 21.802c-.003.52.443.947.99.949l.696.002c.546.003.996-.42 1-.94l.095-21.802 8.055.031c.547.003.996-.42.999-.94l.003-.66c.003-.52-.443-.946-.99-.947zm49.264.515c-.144-.33-.481-.52-.867-.52l-.87-.005a.963.963 0 00-.677.28l-.145.14-.147.142-6.609 9.677-6.72-9.734c-.048-.046-.096-.094-.096-.14l-.143-.143a.97.97 0 00-.675-.285l-.774-.003a1.021 1.021 0 00-.872.515 1.03 1.03 0 00.045.988l7.966 11.576-.049 11.307c.006.527.437.95.964.946l.675.002a.957.957 0 00.97-.937l.049-11.308 7.923-11.509c.194-.329.243-.705.052-.989zm-37.898 12.047l3.75-7.994 3.728 8.023-7.478-.03zm15.615 10.954v-.047l-10.5-22.733c-.15-.425-.549-.71-1.102-.807-.603-.049-1.156.231-1.41.703v.046l-10.705 22.697v.047l-.204.471c-.095.283-.06.595.097.849.188.258.483.416.802.428l.854.004c.453.001.806-.282.958-.657l.05-.141 4.314-9.277 9.95.04 4.28 9.31.049.14c.15.38.5.664.952.667l.854.002c.352.002.654-.139.806-.422.152-.281.254-.563.104-.847l-.149-.473zm-86.008-15.15l.817.003a.963.963 0 00.729-.347l4.755-6.218.412-.478a.763.763 0 00.095-.915c-.135-.306-.453-.482-.816-.483l-.863-.004a.929.929 0 00-.868.608l-4.983 6.522a.94.94 0 00-.096.915c.135.22.453.394.816.397h.002zm-6.998 8.45l-.819-.002a.96.96 0 00-.728.347l-4.755 6.207-.413.48a.77.77 0 00-.094.92c.135.309.452.485.816.488l.864.002a.91.91 0 00.82-.478l5.03-6.601a.949.949 0 00.095-.92 1.027 1.027 0 00-.816-.443zm8.019-.453l.148.14 5.55 7.248c.248.284.246.662.095.99-.15.332-.5.519-.9.517l-.896-.004a1.013 1.013 0 01-.697-.286l-.149-.14c-.03-.002-.042-.02-.059-.044a.212.212 0 00-.04-.052l-5.501-7.151a1.005 1.005 0 01-.15-.237l-11.694-15.39-.446-.521c-.248-.285-.246-.662-.096-.993.15-.33.501-.518.9-.516l.897.004a.99.99 0 01.845.428l.15.19 11.992 15.721s.05.048.05.096z"
+                                    ></path>
+                                </svg>
+                                <h2 class="app-introduction__heading">TÌM KIẾM CHỖ Ở GIÁ TỐT NHẤT</h2>
+                                <p class="app-introduction__info">Luxstay hiện là nền tảng đặt phòng trực tuyến #1 Việt Nam. Đồng hành cùng chúng tôi, bạn có những chuyến đi mang đầy trải nghiệm. Với Luxstay, việc đặt chỗ ở, biệt thự nghỉ dưỡng, khách sạn, nhà riêng, chung cư... trở nên nhanh chóng, thuận tiện và dễ dàng.</p>
+                                <div class="app-introduction__action mt-72">
+                                    <div class="row row--wide">
+                                        <div class="col-md-6 col-xl-4">
+                                            <div class="qr-code">
+                                                <img src="./assets/img/qr-code.png" width="180" height="56" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-xl-8 is-flex align-center">
+                                            <div class="row">
+                                                <div class=" col-xs-12 col-sm-6">
+                                                    <a href="#">
+                                                        <img src="./assets/img/apple-store.svg" width="180" height="56" class="d-inline-block mb-18" alt="" >
+                                                    </a>
+                                                </div>
+                                                <div class=" col-xs-12 col-sm-6">
+                                                    <a href="#">
+                                                        <img src="./assets/img/huawei.svg" width="180" height="56" class="d-inline-block mb-18" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class=" col-xs-12 col-sm-6">
+                                                    <a href="#">
+                                                        <img src="./assets/img/google-play.svg" width="180" height="56" class="d-inline-block mb-18" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 end-md">
+                                <img src="./assets/img/home-02.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact mb-60" data-aos="zoom-in">
+                        <div class="row">
+                            <div class="col-md-20">
+                                <div class="widget">
+                                    <div class="widget__title">
+                                        <svg version="1.1" viewBox="0 0 244 50" class="svg-icon svg-fill" style="width: 170px; height: 35px;"><path pid="0" d="M25.093 0c13.781.06 24.94 11.317 24.882 25.106C49.917 38.894 38.663 50.058 24.88 50 11.1 49.942-.059 38.683.001 24.894.057 11.106 11.31-.058 25.092 0zm11.801 31.9L14.398 16.053c.241-.26.48-.518.74-.777 2.7-2.687 5.971-4.031 9.775-4.015 3.804.015 7.064 1.388 9.741 4.098.238.241.476.482.694.743l-5.951 4.133 2.381 1.688 5.153-3.576v.02L39.33 16.7c-.692-1.203-1.584-2.325-2.616-3.39-3.231-3.292-7.167-4.947-11.788-4.967-4.6-.019-8.53 1.603-11.809 4.867a17.806 17.806 0 00-2.682 3.408l1.429 1.004 23.429 16.51c-.24.26-.48.518-.74.777-2.7 2.687-5.971 4.011-9.775 3.996-3.803-.016-7.063-1.37-9.74-4.08-.258-.26-.496-.521-.734-.782l6.111-4.251-.139-.181-2.183-1.528-5.373 3.735v-.021l-2.377 1.65a17.824 17.824 0 002.654 3.43c3.253 3.291 7.169 4.946 11.769 4.965 4.62.021 8.549-1.602 11.83-4.866 1.06-1.075 1.96-2.21 2.682-3.406l-2.383-1.67zm45.839 2.652l-12.45-.05.096-21.789a.957.957 0 00-.965-.945l-.678-.003a.96.96 0 00-.974.939v.047c-.048.095-.05.236-.05.33l-.098 22.636a1.337 1.337 0 001.351 1.326l13.805.056a.958.958 0 00.973-.938l.003-.662a1.037 1.037 0 00-1.013-.946v-.001zm27.64-22.67l-.871-.003c-.563-.003-1.027.42-1.027.937l-.075 15.878c-.014 3.157-3.252 5.735-7.197 5.72-3.943-.014-7.158-2.618-7.144-5.775l.123-15.5.052-.282a.957.957 0 00-.201-.756 1.128 1.128 0 00-.767-.332l-.87-.004c-.513-.002-.924.326-1.028.75a.857.857 0 00-.156.47l-.073 15.69c-.02 4.616 4.47 8.402 9.95 8.424 5.48.022 10.004-3.73 10.025-8.3l.122-15.5.054-.282a.952.952 0 00-.203-.755c-.152-.189-.458-.379-.714-.38zm48.638 11.226c-3.275-1.249-6.696-2.496-6.688-4.393.01-2.42 2.721-4.401 6.05-4.387 3.331.014 6.025 2.017 6.014 4.436l-.002.38a.96.96 0 00.961.953l.675.003a.96.96 0 00.971-.945v-.38c.009-1.66-.709-3.276-2.006-4.515-1.635-1.618-4.092-2.532-6.65-2.494-4.873-.02-8.698 3.047-8.715 6.938.03 3.748 4.416 5.38 8.656 6.962 3.324 1.247 6.795 2.495 6.785 4.487-.01 2.372-3.155 4.399-6.775 4.385-3.668-.016-6.747-2.07-6.737-4.44l.001-.38a.961.961 0 00-.96-.954l-.676-.002a.96.96 0 00-.97.945v.38c-.018 3.843 4.215 6.991 9.38 7.012 5.163.022 9.423-3.092 9.44-6.934-.033-3.796-4.464-5.427-8.754-7.057zM193.66 11.84l-18.844-.076c-.547-.003-.996.42-.999.94l-.002.66c-.002.52.443.946.99.949l8.103.032-.095 21.802c-.003.52.443.947.99.949l.696.002c.546.003.996-.42 1-.94l.095-21.802 8.055.031c.547.003.996-.42.999-.94l.003-.66c.003-.52-.443-.946-.99-.947zm49.264.515c-.144-.33-.481-.52-.867-.52l-.87-.005a.963.963 0 00-.677.28l-.145.14-.147.142-6.609 9.677-6.72-9.734c-.048-.046-.096-.094-.096-.14l-.143-.143a.97.97 0 00-.675-.285l-.774-.003a1.021 1.021 0 00-.872.515 1.03 1.03 0 00.045.988l7.966 11.576-.049 11.307c.006.527.437.95.964.946l.675.002a.957.957 0 00.97-.937l.049-11.308 7.923-11.509c.194-.329.243-.705.052-.989zm-37.898 12.047l3.75-7.994 3.728 8.023-7.478-.03zm15.615 10.954v-.047l-10.5-22.733c-.15-.425-.549-.71-1.102-.807-.603-.049-1.156.231-1.41.703v.046l-10.705 22.697v.047l-.204.471c-.095.283-.06.595.097.849.188.258.483.416.802.428l.854.004c.453.001.806-.282.958-.657l.05-.141 4.314-9.277 9.95.04 4.28 9.31.049.14c.15.38.5.664.952.667l.854.002c.352.002.654-.139.806-.422.152-.281.254-.563.104-.847l-.149-.473zm-86.008-15.15l.817.003a.963.963 0 00.729-.347l4.755-6.218.412-.478a.763.763 0 00.095-.915c-.135-.306-.453-.482-.816-.483l-.863-.004a.929.929 0 00-.868.608l-4.983 6.522a.94.94 0 00-.096.915c.135.22.453.394.816.397h.002zm-6.998 8.45l-.819-.002a.96.96 0 00-.728.347l-4.755 6.207-.413.48a.77.77 0 00-.094.92c.135.309.452.485.816.488l.864.002a.91.91 0 00.82-.478l5.03-6.601a.949.949 0 00.095-.92 1.027 1.027 0 00-.816-.443zm8.019-.453l.148.14 5.55 7.248c.248.284.246.662.095.99-.15.332-.5.519-.9.517l-.896-.004a1.013 1.013 0 01-.697-.286l-.149-.14c-.03-.002-.042-.02-.059-.044a.212.212 0 00-.04-.052l-5.501-7.151a1.005 1.005 0 01-.15-.237l-11.694-15.39-.446-.521c-.248-.285-.246-.662-.096-.993.15-.33.501-.518.9-.516l.897.004a.99.99 0 01.845.428l.15.19 11.992 15.721s.05.048.05.096z"></path></svg>
+                                    </div>
+                                    <div class="widget__text">
+                                        <div class="about-item">
+                                            <svg version="1.1" viewBox="0 0 40 40" class="svg-icon svg-fill" style="width: 40px; height: 40px;"><defs><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="svgicon_whatsapp_b"><stop stop-color="#4B4B4B" offset="0%"></stop><stop offset="100%"></stop></linearGradient><linearGradient x1="0%" y1="25.77%" x2="100%" y2="74.23%" id="svgicon_whatsapp_e"><stop stop-color="#C77D0E" offset="0%"></stop><stop stop-color="#F98713" offset="100%"></stop></linearGradient><linearGradient x1="0%" y1="24.995%" x2="100%" y2="75.005%" id="svgicon_whatsapp_f"><stop stop-color="#F98713" offset="0%"></stop><stop stop-color="#FBAC36" offset="100%"></stop></linearGradient><path pid="0" d="M9.083 17.431L3.52 20.16H1.76l1.4-5.483C1.182 13.132 0 11.172 0 9.04 0 4.047 6.483 0 14.48 0c7.997 0 14.48 4.047 14.48 9.04 0 4.993-6.483 9.04-14.48 9.04-1.908 0-3.73-.23-5.397-.649z" id="svgicon_whatsapp_a"></path><path pid="1" d="M9.083 17.431L3.52 20.16H1.76l1.4-5.483C1.182 13.132 0 11.172 0 9.04 0 4.047 6.483 0 14.48 0c7.997 0 14.48 4.047 14.48 9.04 0 4.993-6.483 9.04-14.48 9.04-1.908 0-3.73-.23-5.397-.649z" id="svgicon_whatsapp_d"></path></defs><g fill="none" fill-rule="evenodd"><circle pid="2" fill-opacity=".03" fill="#000" cx="20" cy="20" r="20"></circle><ellipse pid="3" fill="#E4E4E4" cx="20" cy="36.64" rx="20" ry="1.28"></ellipse><g transform="translate(0 4)"><mask id="svgicon_whatsapp_c" fill="#fff"><use xlink:href="#svgicon_whatsapp_a"></use></mask><use fill="url(#svgicon_whatsapp_b)" xlink:href="#svgicon_whatsapp_a"></use><path pid="4" d="M10.843 17.431L5.28 20.16H3.52l1.4-5.483c-1.978-1.545-3.16-3.505-3.16-5.637C1.76 4.047 8.243 0 16.24 0c7.997 0 14.48 4.047 14.48 9.04 0 4.993-6.483 9.04-14.48 9.04-1.908 0-3.73-.23-5.397-.649z" fill="#414141" mask="url(#svgicon_whatsapp_c)"></path><circle pid="5" fill="#FFF" opacity=".2" mask="url(#svgicon_whatsapp_c)" cx="9.6" cy="8.48" r="1.6"></circle><circle pid="6" fill="#FFF" opacity=".2" mask="url(#svgicon_whatsapp_c)" cx="14.72" cy="8.48" r="1.6"></circle><circle pid="7" fill="#FFF" opacity=".2" mask="url(#svgicon_whatsapp_c)" cx="19.84" cy="8.48" r="1.6"></circle></g><g transform="matrix(-1 0 0 1 40 16)"><mask id="svgicon_whatsapp_g" fill="#fff"><use xlink:href="#svgicon_whatsapp_d"></use></mask><use fill="url(#svgicon_whatsapp_e)" xlink:href="#svgicon_whatsapp_d"></use><path pid="8" d="M7.808 17.112L1.6 20.16H-.16l1.759-6.03C-.21 12.622-1.28 10.75-1.28 8.72c0-4.993 6.483-9.04 14.48-9.04 7.997 0 14.48 4.047 14.48 9.04 0 4.993-6.483 9.04-14.48 9.04-1.906 0-3.725-.23-5.392-.648z" fill="url(#svgicon_whatsapp_f)" mask="url(#svgicon_whatsapp_g)"></path><circle pid="9" fill="#CF3B00" opacity=".413" mask="url(#svgicon_whatsapp_g)" cx="8.64" cy="8.48" r="1.6"></circle><circle pid="10" fill="#CF3B00" opacity=".413" mask="url(#svgicon_whatsapp_g)" cx="13.76" cy="8.48" r="1.6"></circle><circle pid="11" fill="#CF3B00" opacity=".413" mask="url(#svgicon_whatsapp_g)" cx="18.88" cy="8.48" r="1.6"></circle></g></g></svg> 
+                                            <div class="about-item__content">
+                                                <p class="extra-bold">Message</p>
+                                                <a href="#" class="mb-0">http://m.me/luxstay</a>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="about-item">
+                                            <svg version="1.1" viewBox="0 0 40 40" class="svg-icon svg-fill" style="width: 40px; height: 40px;"><defs><linearGradient x1="0%" y1="25.77%" x2="100%" y2="74.23%" id="svgicon_call-center_b"><stop stop-color="#C77D0E" offset="0%"></stop><stop stop-color="#F98713" offset="100%"></stop></linearGradient><linearGradient x1="0%" y1="25.77%" x2="100%" y2="74.23%" id="svgicon_call-center_c"><stop stop-color="#F98713" offset="0%"></stop><stop stop-color="#FBAC36" offset="100%"></stop></linearGradient><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="svgicon_call-center_f"><stop stop-color="#4B4B4B" offset="0%"></stop><stop offset="100%"></stop></linearGradient><path pid="0" d="M6.83 13.108L2.647 15.16H1.323l1.053-4.123C.89 9.875 0 8.401 0 6.797 0 3.045 4.875 0 10.889 0c6.013 0 10.888 3.044 10.888 6.798s-4.875 6.798-10.888 6.798c-1.435 0-2.805-.173-4.059-.488z" id="svgicon_call-center_a"></path><path pid="1" d="M0 6.084c0-3 2.176-5.168 3.71-5.832C5.241-.41 9.103.39 9.53.866c.427.477 1.048 5.218.852 6.143-.11.525-.774 1.077-1.988 1.656a1 1 0 00-.55 1.097 12.858 12.858 0 001.443 3.897c.813 1.424 1.954 2.861 3.422 4.31l.632-.587a4.094 4.094 0 012.789-1.097c1.037 0 2.04.378 2.819 1.064l3.157 2.778a1 1 0 01.282 1.085c-.49 1.386-1.315 2.368-2.473 2.947-1.333.667-3.068.937-5.206.81-3 0-8.105-3.52-11-8.217C.814 12.054 0 9.084 0 6.084z" id="svgicon_call-center_e"></path></defs><g fill="none" fill-rule="evenodd"><circle pid="2" fill-opacity=".03" fill="#000" cx="20" cy="20" r="20"></circle><ellipse pid="3" fill="#E4E4E4" cx="20" cy="36.64" rx="20" ry="1.28"></ellipse><g transform="translate(15.71 7)"><mask id="svgicon_call-center_d" fill="#fff"><use xlink:href="#svgicon_call-center_a"></use></mask><use fill="url(#svgicon_call-center_b)" xlink:href="#svgicon_call-center_a"></use><path pid="4" d="M8.154 13.108L3.97 15.16H2.647L3.7 11.037c-1.487-1.162-2.377-2.636-2.377-4.24C1.323 3.045 6.2 0 12.213 0 18.225 0 23.1 3.044 23.1 6.798s-4.875 6.798-10.889 6.798c-1.434 0-2.804-.173-4.058-.488z" fill="url(#svgicon_call-center_c)" mask="url(#svgicon_call-center_d)"></path><circle pid="5" fill="#CF3B00" opacity=".413" mask="url(#svgicon_call-center_d)" cx="7.219" cy="6.377" r="1.203"></circle><circle pid="6" fill="#CF3B00" opacity=".413" mask="url(#svgicon_call-center_d)" cx="11.069" cy="6.377" r="1.203"></circle><circle pid="7" fill="#CF3B00" opacity=".413" mask="url(#svgicon_call-center_d)" cx="14.919" cy="6.377" r="1.203"></circle></g><g transform="translate(2 11.03)"><mask id="svgicon_call-center_g" fill="#fff"><use xlink:href="#svgicon_call-center_e"></use></mask><use fill="url(#svgicon_call-center_f)" xlink:href="#svgicon_call-center_e"></use><path pid="8" d="M2.71 6.084c0-3 2.175-5.168 3.708-5.832C7.951-.41 11.813.39 12.24.866c.426.477 1.047 5.218.852 6.143-.112.525-.775 1.077-1.99 1.656a1 1 0 00-.55 1.097 12.858 12.858 0 001.444 3.897c.813 1.424 1.954 2.861 3.422 4.31l.632-.587a4.094 4.094 0 012.789-1.097c1.038 0 2.04.378 2.819 1.064l3.157 2.778a1 1 0 01.282 1.085c-.49 1.386-1.315 2.368-2.472 2.947-1.334.667-3.07.937-5.207.81-3 0-8.105-3.52-11-8.217C3.523 12.054 2.71 9.084 2.71 6.084z" fill="#414141" mask="url(#svgicon_call-center_g)"></path></g></g></svg>
+                                            <div class="about-item__content">
+                                                <p class="extra-bold">Call center</p>
+                                                <p>
+                                                    <a href="#">18006586 (Việt Nam)</a>
+                                                    <br>
+                                                    <a href="#">0889866666</a>
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-20">
+                                <div class="widget">
+                                    <h3 class="widget__title">
+                                        TOP homestay được yêu thích
+                                    </h3>
+                                    <ul class="widget__menu widget__text">
+                                        <li class="widget__menu-item">
+                                            <a href="#">Homestay Đà Lạt</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Homestay Hà Nội</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Homestay Hồ Chí Minh</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Homestay Sapa</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Homestay Vũng Tàu</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Homestay Tam Đảo</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Homestay Hội An</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Homestay Đà Nẵng</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Homestay Hạ Long</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Homestay Phan Thiết</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-20">
+                                <div class="widget">
+                                    <h3 class="widget__title">
+                                        Không gian ưu thích
+                                    </h3>
+                                    <ul class="widget__menu widget__text">
+                                        <li class="widget__menu-item">
+                                            <a href="#">Căn hộ dịch vụ</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Biệt thự</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Nhà riêng</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Studio</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Travel Guide</a>
+                                        </li>
+
+                                        
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-20">
+                                <div class="widget">
+                                    <h3 class="widget__title">
+                                        Về chúng tôi
+                                    </h3>
+                                    <ul class="widget__menu widget__text">
+                                        <li class="widget__menu-item">
+                                            <a href="#">Blog</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Điều khoản hoạt động</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">1800 6586</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">+84 8898 66666</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">info@luxstay.com</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Trang thông tin dành cho chủ nhà</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Cơ hội nghề nghiệp</a>
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <a href="#">Tạp chí du lịch</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-20">
+                                <div class="widget">
+                                    <h3 class="widget__title">
+                                        Tải ứng dụng Luxstay
+                                    </h3>
+                                    <div class="widget__text">
+                                        <div class="row mb-36">
+                                            <div class="col-md-6">
+                                                <div class="qr-code mr-12 d-inline-block">
+                                                    <img src="./assets/img/qr-code.png" width="180" height="56" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 is-flex align-center">
+                                                <div class="row">
+                                                    <div class=" col-xs-12 col-12">
+                                                        <a href="#">
+                                                            <img src="./assets/img/apple-store.svg" width="180" height="56" class="d-inline-block mb-18" alt="" >
+                                                        </a>
+                                                    </div>
+                                                    <div class=" col-xs-12 col-12">
+                                                        <a href="#">
+                                                            <img src="./assets/img/huawei.svg" width="180" height="56" class="d-inline-block mb-18" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class=" col-xs-12 col-12">
+                                                        <a href="#">
+                                                            <img src="./assets/img/google-play.svg" width="180" height="56" class="d-inline-block mb-18" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="offset-md-20 col-md-40">
+                                <div class="widget">
+                                    <h3 class="widget__title">Secure Your Transaction</h3>
+                                    <ul class="d-flex">
+                                        <li class="widget__menu-item">
+                                            <img src="./assets/img/visa.svg" alt="">
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <img src="./assets/img/mastercard.svg" alt="">
+                                        </li>
+
+                                        <li class="widget__menu-item">
+                                            <img src="./assets/img/maestro.svg" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-20">
+                                <div class="widget">
+                                    <h3 class="widget__title">Certification</h3>
+                                    <div class="certificate-box row">
+                                        <div class="col-sm-5 mr-12">
+                                            <a href="#">
+                                                <img src="./assets/img/cerity.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <a href="#">
+                                                <img src="./assets/img/cerity2.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-20">
+                                <div class="widget">
+                                    <h3 class="widget__title">Follow us</h3>
+                                    <div class="social">
+                                        <a href="#">
+                                            <svg version="1.1" viewBox="0 0 24 24" class="svg-icon svg-fill" style="width: 28px; height: 28px;"><g fill="none" fill-rule="evenodd"><circle pid="0" cx="12" cy="12" r="12" fill="#484848"></circle><path pid="1" fill="#FFF" d="M14.333 12c0-.644-.228-1.194-.683-1.65A2.248 2.248 0 0012 9.667c-.644 0-1.194.228-1.65.683A2.248 2.248 0 009.667 12c0 .644.228 1.194.683 1.65a2.248 2.248 0 001.65.683c.644 0 1.194-.228 1.65-.683a2.248 2.248 0 00.683-1.65zm1.258 0c0 .997-.35 1.844-1.048 2.543-.699.699-1.546 1.048-2.543 1.048-.997 0-1.844-.35-2.543-1.048-.699-.699-1.048-1.546-1.048-2.543 0-.997.35-1.844 1.048-2.543.699-.699 1.546-1.048 2.543-1.048.997 0 1.844.35 2.543 1.048.699.699 1.048 1.546 1.048 2.543zm.985-3.737a.81.81 0 01-.247.592.808.808 0 01-.592.247.808.808 0 01-.592-.247.808.808 0 01-.247-.592c0-.23.082-.428.247-.592a.808.808 0 01.592-.247.81.81 0 01.592.247.808.808 0 01.247.592zM12 6.258l-.697-.005a49.446 49.446 0 00-.962 0c-.219.003-.512.012-.88.028-.367.015-.68.045-.938.09a3.654 3.654 0 00-.652.17 2.365 2.365 0 00-.802.528c-.23.23-.407.498-.529.802a3.654 3.654 0 00-.168.652 7.223 7.223 0 00-.091.939c-.016.367-.025.66-.028.88a49.9 49.9 0 000 .96l.005.698-.005.697c-.003.423-.003.743 0 .962.003.219.012.512.028.88.015.367.045.68.09.938.046.258.103.476.17.652a2.375 2.375 0 001.33 1.331c.176.066.394.123.652.168.258.046.571.076.939.091.367.016.66.025.88.028.218.003.538.003.96 0l.698-.005.697.005c.423.003.743.003.962 0 .219-.003.512-.012.88-.028.367-.015.68-.045.938-.09.258-.046.476-.103.652-.17a2.375 2.375 0 001.331-1.33c.066-.176.123-.394.168-.652.046-.258.076-.571.091-.939.016-.367.025-.66.028-.88a49.9 49.9 0 000-.96L17.742 12l.005-.697c.003-.423.003-.743 0-.962a33.766 33.766 0 00-.028-.88 7.223 7.223 0 00-.09-.938 3.654 3.654 0 00-.17-.652 2.365 2.365 0 00-.528-.802 2.365 2.365 0 00-.802-.529 3.654 3.654 0 00-.652-.168 7.223 7.223 0 00-.939-.091c-.367-.016-.66-.025-.88-.028a49.9 49.9 0 00-.96 0L12 6.258zM19 12c0 1.392-.015 2.355-.046 2.89-.06 1.263-.437 2.242-1.13 2.934-.692.693-1.67 1.07-2.935 1.13-.534.03-1.497.046-2.889.046-1.392 0-2.355-.015-2.89-.046-1.263-.06-2.242-.437-2.934-1.13-.693-.692-1.07-1.67-1.13-2.935C5.016 14.355 5 13.392 5 12c0-1.392.015-2.355.046-2.89.06-1.263.437-2.242 1.13-2.934.692-.693 1.67-1.07 2.935-1.13C9.645 5.016 10.608 5 12 5c1.392 0 2.355.015 2.89.046 1.263.06 2.242.437 2.934 1.13.693.692 1.07 1.67 1.13 2.935.03.534.046 1.497.046 2.889z"></path></g></svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg version="1.1" viewBox="0 0 24 24" class="svg-icon svg-fill" style="width: 28px; height: 28px;"><g fill="none" fill-rule="evenodd"><circle pid="0" cx="12" cy="12" r="12" fill="#484848"></circle><path pid="1" fill="#FFF" d="M10.679 13.884l3.865-1.997-3.865-2.02v4.017zM12.156 7c.894 0 1.758.012 2.591.036.834.024 1.445.05 1.833.076l.583.032a5.326 5.326 0 01.32.036l.187.036c.088.016.164.037.228.064.064.026.138.06.224.103.085.043.167.095.247.156a1.894 1.894 0 01.356.36c.05.066.127.222.231.467.104.245.174.513.212.806.042.341.076.704.1 1.09.024.386.038.688.044.907v1.405c.005.772-.043 1.544-.144 2.316a3.186 3.186 0 01-.2.795c-.096.237-.18.4-.255.491l-.112.136c-.075.08-.152.15-.232.211-.08.062-.162.112-.247.152a6.87 6.87 0 01-.224.1c-.064.027-.14.048-.228.064l-.191.036a4.882 4.882 0 01-.315.036c-1.337.1-3.006.151-5.008.151-1.102-.01-2.06-.027-2.871-.051a62.25 62.25 0 01-1.601-.06l-.392-.032-.287-.032a3.791 3.791 0 01-.435-.08 2.454 2.454 0 01-.408-.168 1.597 1.597 0 01-.575-.475c-.05-.066-.127-.222-.231-.467a3.04 3.04 0 01-.212-.807c-.042-.34-.076-.704-.1-1.09A25.651 25.651 0 015 12.894v-1.406c-.005-.772.043-1.544.144-2.316.037-.293.104-.557.2-.794.096-.237.18-.401.255-.492l.112-.135c.075-.08.152-.15.232-.212.08-.061.162-.113.247-.156a3.65 3.65 0 01.224-.103c.064-.027.14-.048.228-.064l.187-.036a5.326 5.326 0 01.32-.036C8.485 7.048 10.154 7 12.156 7z"></path></g></svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg version="1.1" viewBox="0 0 24 24" class="svg-icon svg-fill" style="width: 28px; height: 28px;"><g fill="none" fill-rule="evenodd"><circle pid="0" cx="12" cy="12" r="12" fill="#484848"></circle><path pid="1" fill="#FFF" d="M15.429 5.242v2.176h-1.246c-.455 0-.762.098-.921.296-.159.198-.238.495-.238.89v1.558h2.325l-.31 2.44h-2.015v6.255h-2.429v-6.255H8.571v-2.44h2.024V8.365c0-1.022.275-1.814.826-2.377.55-.564 1.283-.845 2.198-.845.778 0 1.381.033 1.81.099z"></path></g></svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <footer class="footer">
+                <div class="grid__container">
+                    <p>© 2022 Luxstay. Bản quyền thuộc về Công ty TNHH Luxstay Việt Nam - MSDN: 0108308449. Mọi hành vi sao chép đều là phạm pháp nếu không có sự cho phép bằng văn bản của chúng tôi.</p>
+                    <p>Tầng 21 tòa nhà Capital Tower số 109 phố Trần Hưng Đạo, phường Cửa Nam, quận Hoàn Kiếm, Hà Nội. Email: info@luxstay.com, Số điện thoại: 18006586.</p>
+                    <p>Số Giấy chứng nhận đăng ký doanh nghiệp: 0108308449, ngày cấp: 06/06/2018, nơi cấp: Sở Kế hoạch và Đầu tư TP Hà Nội</p>
+                </div>
+            </footer>
+            <div class="modal modalRegistration js-modalRegistration">
+                <div class="modal-container js-modal-container">
+                    <div class="modal-close js-modal-close">
+                        <i class="fas fa-times close-icon"></i>
+                    </div>
+                    <div class="modal-header">
+                        <h1 class="modal-header__title">Đăng ký thành viên Luxstay - Tích điểm thưởng và nhận ưu đãi</h1>
+                        <p class="modal-header__info">Nhanh chóng, tiện lợi và an toàn. Đăng ký liền tay, rinh ngay quyền lợi.</p>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-60 col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="media">
+                                            <img src="./assets/img/coins@2x.png" width="65" height="70" alt="">
+                                            <h3 class="media__title">Tích điểm nhanh chóng</h3>
+                                            <p class="media__content m--0">Tích điểm đối với mỗi lượt đặt chỗ thành công. Quy đổi thành Lux Credit để du lịch nhiều hơn nữa.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="media">
+                                            <img src="./assets/img/top-sales@2x.png" width="65" height="70" alt="">
+                                            <h3 class="media__title">Tiện ích thông minh</h3>
+                                            <p class="media__content m--0">Check-in và kiểm tra hóa đơn thanh toán kể cả khi không có kết nối mạng. Hoàn tiền nhanh gọn. Đổi lịch dễ dàng.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="media">
+                                            <img src="./assets/img/wallet@2x.png" width="65" height="70" alt="">
+                                            <h3 class="media__title">Thanh toán đơn giản</h3>
+                                            <p class="media__content m--0">Phương thức thanh toán tiện lợi, an toàn. Tích hợp chức năng lưu thẻ để đặt phòng lần sau.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="media">
+                                            <img src="./assets/img/backpack@2x.png" width="65" height="70" alt="">
+                                            <h3 class="media__title">Ưu đãi mỗi ngày</h3>
+                                            <p class="media__content m--0">Nhận thông báo ưu đãi từ Luxstay khi có kế hoạch du lịch để lựa chọn và đặt ngay cho mình một chỗ ở phù hợp, tiện nghi với giá tốt nhất.</p>
+                                        </div>
+                                    </div>
+                                    
+
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-40 col-xs-12">
+                                <div class="account">
+                                    <form action="" autocomplete="off">
+                                        <h3 class="account__title">Đăng ký thành viên</h3>
+                                        <div>
+                                            <label class="input-group__label" for="">Địa chỉ email</label>
+                                            <div class="input-group__icon is-relative">
+                                                <div class="input-group">
+                                                    <div class="input-group__icon is-relative">
+                                                        <input type="text" name="email" class="input mt--0" aria-required="true" aria-invalid="false">
+                                                        <span class="is-absolute input-icon">
+                                                            <i class="far fa-envelope"></i>
+                                                        </span>
+                                                        <span>
+                                                            <div class="p--small c-alert">Please fill your Email</div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="input-group">
+                                                    <div class="update-phone">
+                                                        <label for="" class="input-group__label">Số điện thoại</label>
+                                                        <div class="phone-input input">
+                                                            <div class="country pointer">
+                                                                <span class="code">
+                                                                    <span class="flag-box">
+                                                                        <div class="iti-flag vn"></div>
+                                                                    </span>
+                                                                    <span>+84</span>
+                                                                    <span style="font-size:10px">▼</span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="phone-input__wrapper fl-item-stretch">
+                                                                <input type="number" name="phone" min="1" placeholder="số điện thoại" data-vv-as="số điện thoại" aria-required="true" aria-invalid="false">
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <span>
+                                                            <div class="p--small c-alert">
+                                                                The Số điện thoại field must be numeric and may contain decimal points
+                                                            </div> 
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="input-group">
+                                                    <label for="" class="input-group__label">Tên</label>
+                                                    <input type="text" name="first-name" class="input" aria-required="true" aria-invalid="true">
+                                                    <span>
+                                                        <div class="p--small c-alert">
+                                                            Vui lòng nhập Tên 
+                                                        </div> 
+                                                    </span>
+                                                </div>
+
+                                                <div class="input-group">
+                                                    <label for="" class="input-group__label">Họ và tên đệm</label>
+                                                    <input type="text" name="first-name" class="input" aria-required="true" aria-invalid="true">
+                                                    <span>
+                                                        <div class="p--small c-alert">
+                                                            Vui lòng nhập Họ và đệm
+                                                        </div> 
+                                                    </span>
+                                                </div>
+                                                <div class="input-group">
+                                                    <label for="" class="input-group__label">
+                                                        <span>Mật khẩu</span>
+                                                        <span class="c-gray-9 normal">(Tối thiểu 8 ký tự)</span>
+                                                    </label>
+                                                    <div class="input-group__icon is-relative">
+                                                        <input type="password" name="password" placeholder="Mật khẩu" autocomplete="password" class="input" aria-required="true" aria-invalid="true" aria-autocomplete="list">
+                                                        <span class="is-absolute input-icon">
+                                                            <img src="./assets/img/locked.svg" width="12" alt="">
+                                                        </span>
+                                                        <span>
+                                                            <div class="p--small c-alert">
+                                                                Vui lòng nhập mật khẩu
+                                                            </div> 
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="input-group">
+                                                    <label for="" class="input-group__label">
+                                                        <span>Xác nhận mật khẩu mới</span>
+                                                    </label>
+                                                    <div class="input-group__icon is-relative">
+                                                        <input type="password" name="password" autocomplete="password" class="input" aria-required="true" aria-invalid="true" aria-autocomplete="list">
+                                                        <span class="is-absolute input-icon">
+                                                            <img src="./assets/img/locked.svg" width="12" alt="">
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="account__body">
+                                            <button type="submit" class="account__btn btn btn-grad--primary btn--shadow btn--md btn--radius btn--full bold">Đăng ký</button>
+                                            <div>
+                                                Bạn đã có tài khoản Luxstay?
+                                                <span class="text-orange bold pointer">Đăng nhập</span>
+                                            </div>
+
+                                            <div class="caption">
+                                                Tôi đồng ý với 
+                                                <a href="#" class="bold ">Bảo mật</a>
+                                                và
+                                                <a href="#" class="bold ">Điều khoản hoạt động</a>
+                                                của Luxstay.
+                                            </div>
+                                            <div class="account__3rd">
+                                                <div>
+                                                    <div class="btn btn-outline--secondary btn--md btn--radius btn--full is-relative">
+                                                        <span>Đăng nhập với Facebook</span>
+                                                        <i class="is-absolute fab fa-facebook-square icon-facebook"></i>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="btn btn-outline--secondary btn--md btn--radius btn--full is-relative">
+                                                        <span>Đăng nhập với Google</span>
+                                                        <svg version="1.1" viewBox="0 0 16 16" class="is-absolute icon-google svg-icon svg-fill"><g fill="none"><path pid="0" fill="#557EBF" d="M15.85 8.2c0-.55-.05-1.1-.15-1.65H8.15v3.1h4.3c-.2 1-.75 1.85-1.6 2.4v2h2.6c1.5-1.4 2.4-3.45 2.4-5.85z"></path><path pid="1" fill="#36A852" d="M8.15 16c2.15 0 3.95-.7 5.3-1.95l-2.6-2c-.7.5-1.65.75-2.7.75-2.1 0-3.85-1.4-4.5-3.3H1v2.05C2.35 14.2 5.05 16 8.15 16z"></path><path pid="2" fill="#F9BC15" d="M3.7 9.5c-.15-.5-.25-1-.25-1.5s.1-1.05.25-1.5V4.4H1C.45 5.5.15 6.7.15 8c0 1.3.3 2.5.85 3.6l2.7-2.1z"></path><path pid="3" fill="#EA4535" d="M8.15 3.2c1.15 0 2.25.4 3.05 1.2l2.3-2.3C12.15.8 10.3 0 8.15 0 5.05 0 2.35 1.8 1 4.4l2.7 2.1c.6-1.9 2.4-3.3 4.45-3.3z"></path></g></svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="modal-footer">
+
+                    </footer>
+                </div>
+            </div>
+
+            <div class="modal modalLogin js-modalLogin">
+                <div class="modal-container js-modal-container">
+                    <div class="modal-close js-modal-close">
+                        <i class="fas fa-times close-icon"></i>
+                    </div>
+                    <div class="modal-header">
+                        <h1 class="modal-header__title">Đăng ký thành viên Luxstay - Tích điểm thưởng và nhận ưu đãi</h1>
+                        <p class="modal-header__info">Nhanh chóng, tiện lợi và an toàn. Đăng ký liền tay, rinh ngay quyền lợi.</p>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-60 col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="media">
+                                            <img src="./assets/img/coins@2x.png" width="65" height="70" alt="">
+                                            <h3 class="media__title">Tích điểm nhanh chóng</h3>
+                                            <p class="media__content m--0">Tích điểm đối với mỗi lượt đặt chỗ thành công. Quy đổi thành Lux Credit để du lịch nhiều hơn nữa.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="media">
+                                            <img src="./assets/img/top-sales@2x.png" width="65" height="70" alt="">
+                                            <h3 class="media__title">Tiện ích thông minh</h3>
+                                            <p class="media__content m--0">Check-in và kiểm tra hóa đơn thanh toán kể cả khi không có kết nối mạng. Hoàn tiền nhanh gọn. Đổi lịch dễ dàng.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="media">
+                                            <img src="./assets/img/wallet@2x.png" width="65" height="70" alt="">
+                                            <h3 class="media__title">Thanh toán đơn giản</h3>
+                                            <p class="media__content m--0">Phương thức thanh toán tiện lợi, an toàn. Tích hợp chức năng lưu thẻ để đặt phòng lần sau.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="media">
+                                            <img src="./assets/img/backpack@2x.png" width="65" height="70" alt="">
+                                            <h3 class="media__title">Ưu đãi mỗi ngày</h3>
+                                            <p class="media__content m--0">Nhận thông báo ưu đãi từ Luxstay khi có kế hoạch du lịch để lựa chọn và đặt ngay cho mình một chỗ ở phù hợp, tiện nghi với giá tốt nhất.</p>
+                                        </div>
+                                    </div>
+                                    
+
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-40 col-xs-12">
+                                <div class="account">
+                                    <form action="" autocomplete="off">
+                                        <h3 class="account__title">Đăng nhập Luxstay để trải nghiệm</h3>
+                                        <div>
+                                            <label class="input-group__label" for="">Địa chỉ email</label>
+                                            <div class="input-group__icon is-relative">
+                                                <div class="input-group">
+                                                    <div class="input-group__icon is-relative">
+                                                        <input type="text" name="email" placeholder="Địa chỉ email" class="input mt--0" aria-required="true" aria-invalid="false">
+                                                        <span class="is-absolute input-icon">
+                                                            <i class="far fa-envelope"></i>
+                                                        </span>
+                                                        <span>
+                                                            <div class="p--small c-alert">Vui lòng nhập Email</div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="input-group">
+                                                    <label for="" class="input-group__label">
+                                                        <span>Mật khẩu</span>
+                                                    </label>
+                                                    <div class="input-group__icon is-relative">
+                                                        <input type="password" name="password" placeholder="Mật khẩu" autocomplete="password" class="input" aria-required="true" aria-invalid="true" aria-autocomplete="list">
+                                                        <span class="is-absolute input-icon">
+                                                            <img src="./assets/img/locked.svg" width="12" alt="">
+                                                        </span>
+                                                        <span>
+                                                            <div class="p--small c-alert">Vui lòng nhập Mật khẩu</div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="account__body">
+                                            <button type="submit" class="account__btn btn btn-grad--primary btn--shadow btn--md btn--radius btn--full bold">Đăng nhập</button>
+                                            <div>
+                                                Quên mật khẩu ?
+                                                <span class="text-orange bold pointer">Nhấn vào đây</span>
+                                            </div>
+
+                                            <div>
+                                                Bạn chưa có tài khoản Luxstay ?
+                                                <span class="text-orange bold pointer">Đăng ký</span>
+                                            </div>
+                                            <div>Hoặc</div>
+                                            <div class="account__3rd">
+                                                <div>
+                                                    <div class="btn btn-outline--secondary btn--md btn--radius btn--full is-relative">
+                                                        <span>Đăng nhập với Facebook</span>
+                                                        <i class="is-absolute fab fa-facebook-square icon-facebook"></i>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="btn btn-outline--secondary btn--md btn--radius btn--full is-relative">
+                                                        <span>Đăng nhập với Google</span>
+                                                        <svg version="1.1" viewBox="0 0 16 16" class="is-absolute icon-google svg-icon svg-fill"><g fill="none"><path pid="0" fill="#557EBF" d="M15.85 8.2c0-.55-.05-1.1-.15-1.65H8.15v3.1h4.3c-.2 1-.75 1.85-1.6 2.4v2h2.6c1.5-1.4 2.4-3.45 2.4-5.85z"></path><path pid="1" fill="#36A852" d="M8.15 16c2.15 0 3.95-.7 5.3-1.95l-2.6-2c-.7.5-1.65.75-2.7.75-2.1 0-3.85-1.4-4.5-3.3H1v2.05C2.35 14.2 5.05 16 8.15 16z"></path><path pid="2" fill="#F9BC15" d="M3.7 9.5c-.15-.5-.25-1-.25-1.5s.1-1.05.25-1.5V4.4H1C.45 5.5.15 6.7.15 8c0 1.3.3 2.5.85 3.6l2.7-2.1z"></path><path pid="3" fill="#EA4535" d="M8.15 3.2c1.15 0 2.25.4 3.05 1.2l2.3-2.3C12.15.8 10.3 0 8.15 0 5.05 0 2.35 1.8 1 4.4l2.7 2.1c.6-1.9 2.4-3.3 4.45-3.3z"></path></g></svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="modal-footer">
+
+                    </footer>
+                </div>
+            </div>
+        </div>
+        
+        <script src="./assets/vendor/jquery/jquery-3.6.0.min.js"></script>
+        <script src="./assets/vendor/aos/aos.js"></script>
+        <script src="./assets/vendor/owlcarousel/owl.carousel.js"></script>
+        <script src="./assets/vendor/owlcarousel/owl.carousel.min.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
