@@ -50,7 +50,7 @@ $(document).ready(function(){
         }
     })
     $('.prev-projectSlide').click(function() {
-        $('.owl-productSlide').trigger('prev.owl.carousel');
+        $('.owl-projectSlide').trigger('prev.owl.carousel');
     });
     $('.next-projectSlide').click(function() {
         $('.owl-projectSlide').trigger('next.owl.carousel');
@@ -79,5 +79,30 @@ $(document).ready(function(){
     });
     $('.next-customerSlide').click(function() {
         $('.owl-customerSlide').trigger('next.owl.carousel');
+    });
+});
+
+$(document).ready(function(){
+    $('.owl-reviewSlide').owlCarousel({
+        loop:true,
+        margin:20,
+        dots:true,
+        items: 1,
+    })
+});
+
+$(document).ready(function(){
+    $('.review-slickComment').slick({
+        centerMode: true,
+        centerPadding: '20px',
+        slidesToShow: 3,
+        arrows:false,
+    })
+
+    $('.prev-slideReview').on('click', function() {
+        $('.review-slickComment').slick('slickPrev');
+    });
+    $('.next-slideReview').on('click', function() {
+        $('.review-slickComment').slick('slickNext');
     });
 });

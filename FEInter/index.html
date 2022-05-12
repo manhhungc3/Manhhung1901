@@ -15,6 +15,8 @@
             href="./assest/vendor/owlcarousel/assets/owl.theme.default.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./assest/vendor/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./assest/vendor/slick-1.8.1/slick/slick-theme.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
         rel="stylesheet">
@@ -252,9 +254,71 @@
                     </div>
                 </div>
                 <div class="review">
-                    <div class="review-content">
+                    <div class="review-content is-flex is-flex-between">
+                        <div class="review-product">
+                            <div class="review-boxProduct">
+                                <div class="title">
+                                    <h2>Review sản phẩm</h2>
+                                </div>
+                                <div class="review-product-content">
+                                    <div class="review-Slide is-flex is-flex-center is-center">
+                                        <div class="owl-carousel owl-theme owl-reviewSlide mb-48">
+                                            <div class="reviewSlide-item">
+                                                <iframe width="100%" height="300" src="https://www.youtube.com/embed/Hywo2vnQLOY" ></iframe>
+                                            </div>
+                                            <div class="reviewSlide-item">
+                                                <iframe width="1280" height="300" src="https://www.youtube.com/embed/Eg8-YkGJW6k" ></iframe>
+                                            </div>
+                                            <div class="reviewSlide-item">
+                                                <iframe width="1280" height="300" src="https://www.youtube.com/embed/H8rFNq0z2mo" ></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="review-comment">
+                            <div class="review-boxComment">
+                                <div class="title">
+                                    <h2>Cảm nhận khách hàng</h2>
+                                </div>
+                                <div class="review-comment-content">
+                                    <div class="slideReview">
 
+                                        <div class="review-slickComment">
+                                            <div class="items">
+                                                <div class="item">
+                                                    <img src="./assest/img/images.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="item">
+                                                    <img src="./assest/img/images.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="item">
+                                                    <img src="./assest/img/images.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="item">
+                                                    <img src="./assest/img/images.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="control-slideReview  ">
+                                            <span class=" prev-slideReview"><i class="fa-solid fa-arrow-left-long"></i> </span>
+                                            <span class="next-slideReview">    <i class="fa-solid fa-arrow-right-long"></i></span>
+                                            
+                                        </div>
+                                    </div>
+                                    <p class="review-comment-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia architecto inventore eligendi laboriosam corrupti corporis nulla excepturi, explicabo natus facere modi deleniti aspernatur. Pariatur cupiditate aspernatur libero voluptatum, quis nesciunt numquam unde aliquam a expedita eveniet et enim. Labore, odio?</p>
+                                    <h4 class="review-comment-info">Trịnh Mạnh Hùng</h4>
+                                    <p class="review-comment-add">KĐT Văn Phú , Hà Đông</p>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                     <div class="customer">
@@ -310,7 +374,7 @@
                     </div>
                     <div class="news-content is-flex is-flex-between is-center flex-wrap mb-48">
                         <div class="news-boxItem">
-                            <div class="news-item is-flex is-flex-betweens">
+                            <div class="news-item is-flex is-flex-between">
                                 <div class="boxImage">
                                     <img src="./assest/img/slide2.png" alt="">
                                 </div>
@@ -328,7 +392,7 @@
                         </div>
 
                         <div class="news-boxItem">
-                            <div class="news-item is-flex is-flex-betweens">
+                            <div class="news-item is-flex is-flex-between">
                                 <div class="boxImage">
                                     <img src="./assest/img/slide2.png" alt="">
                                 </div>
@@ -346,7 +410,7 @@
                         </div>
 
                         <div class="news-boxItem">
-                            <div class="news-item is-flex is-flex-betweens">
+                            <div class="news-item is-flex is-flex-between">
                                 <div class="boxImage">
                                     <img src="./assest/img/slide2.png" alt="">
                                 </div>
@@ -364,7 +428,7 @@
                         </div>
                         
                         <div class="news-boxItem">
-                            <div class="news-item is-flex is-flex-betweens ">
+                            <div class="news-item is-flex is-flex-between ">
                                 <div class="boxImage">
                                     <img src="./assest/img/slide2.png" alt="">
                                 </div>
@@ -487,9 +551,15 @@
             </div>
         </div>
     </div>
-
+    <div class="social-fix">
+        <a href="#" class="social-fixLink"><i class="fa-solid fa-phone"></i></a>
+        <a href="#" class="social-fixLink"><i class="fa-solid fa-message"></i></a>
+        <a href="#" class="social-fixLink"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" class="social-fixLink"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
 
     <script src="./assest/vendor/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./assest/vendor/slick-1.8.1/slick/slick.min.js"></script>
     <script src="./assest/vendor/owlcarousel/owl.carousel.js"></script>
     <script src="./assest/vendor/owlcarousel/owl.carousel.min.js"></script>
     <script src="./assest/js/main.js"></script>
