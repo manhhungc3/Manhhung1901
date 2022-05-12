@@ -1,10 +1,10 @@
 /* PC */
-@media(min-width: 64em) {
+@media(min-width: 106.25em) {
 
 }
 
 /* Tablet */
-@media(min-width: 46.25em) and (max-width: 63.9375em) {
+@media(min-width: 46.25em) and (max-width: 106.25em) {
     .news-boxItem {
         width: 100% !important;
     }
