@@ -1,0 +1,125 @@
+/* PC */
+@media(min-width: 64em) {
+
+}
+
+/* Tablet */
+@media(min-width: 46.25em) and (max-width: 63.9375em) {
+    .news-boxItem {
+        width: 100% !important;
+    }
+    .news-item-info {
+        font-size: 1.2rem !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    h2{
+        font-size: 1.6rem !important;
+    }
+
+    h3 {
+        font-size: 1.2rem !important;
+    }
+
+    p {
+        font-size: 1rem !important;
+    }
+
+    a {
+        font-size: 0.9rem !important;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+    }
+
+    .logo,
+    .navbar  {
+        width: 100% !important;
+    }
+    
+    .news-boxItem {
+        width: 100% !important;
+    }
+    .news-item-info {   
+        font-size: 1.2rem !important;
+    }
+
+    .review-comment-content {
+        padding: 5px !important;
+    }
+
+    .introduce  {
+        padding: 10px !important;
+    }
+
+    .introduce-top {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .introduce-info,
+    .introduct-content {
+        width: 100% !important;
+    }
+
+    .introduce-info p {
+        width: 100% !important;
+    }
+    .introduce-bottom {
+        flex-wrap: wrap;
+    }
+    .introduce-item {
+        width: 100% !important;
+        margin: 0 0 20px 0 !important;
+    }
+
+
+    .owl-productSlide .productSlide-item > .product-image {
+        height: 200px !important;
+    }
+    .review-content {
+        flex-wrap: wrap;
+    }
+    .review-product, 
+    .review-comment {
+        width: 100% !important;
+        padding: 10px !important;
+    }
+    .contact {
+        flex-wrap: wrap !important;
+        padding: 20px !important;
+    }
+    .contact-left {
+        width: 100% !important;
+        
+    }
+
+    .contact-address{
+        padding: 0 !important;
+    }
+
+    .contact-right {
+        flex-wrap: wrap;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .contact-right-item {
+        width: 100% !important;
+    }
+
+    .contact-menu-link {
+        font-size: 1.2rem !important;
+    }
+
+    .contact-menu {
+        padding: 0 !important;
+    }
+
+    .social-fixLink i {
+        font-size: 1.2rem !important;
+    }
+}

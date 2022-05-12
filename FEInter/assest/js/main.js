@@ -14,10 +14,10 @@ $(document).ready(function(){
         dots:true,
         responsive:{
             0:{
-                items:3
+                items:1
             },
             600:{
-                items:3
+                items:1
             },
             1000:{
                 items:3
@@ -39,10 +39,10 @@ $(document).ready(function(){
         dots:true,
         responsive:{
             0:{
-                items:2
+                items:1
             },
             600:{
-                items:2
+                items:1
             },
             1000:{
                 items:2
@@ -64,10 +64,10 @@ $(document).ready(function(){
         dots:true,
         responsive:{
             0:{
-                items:5
+                items:1
             },
             600:{
-                items:5
+                items:3
             },
             1000:{
                 items:5
@@ -87,7 +87,17 @@ $(document).ready(function(){
         loop:true,
         margin:20,
         dots:true,
-        items: 1,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
     })
 });
 
