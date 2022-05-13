@@ -92,7 +92,7 @@ img {
 }
 
 .is-flex {
-    display: flex !important;
+    display: flex ;
 }
 .is-center {
     align-items: center;

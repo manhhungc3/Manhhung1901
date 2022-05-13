@@ -39,6 +39,7 @@
  
  /* Menu */
  .logo {
+     cursor: pointer;
      width: 20%;
      height: 70px;
  }
@@ -67,9 +68,71 @@
      transform: scale(0.9);
  }
 
- .navbar {
-     width: 80%;
- }
+
+/* menu mobile */
+ .menuBtn {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 99999;
+    opacity: 0;
+}
+ .menuBtn > span {
+    background-color: #fff;
+    border-radius: 1px;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -1px 0 0 -15px;
+    transition: height 100ms;
+}
+
+ .menuBtn > span:after, .menuBtn > span:before {
+    content: '';
+    background-color: #fff;
+    border-radius: 1px;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    transition: all 200ms;
+}
+
+
+.menuBtn > span:after {
+    top: -7px;
+}
+.menuBtn > span:before {
+    bottom: -7px;
+}
+.menuBtn.act > span {
+    height: 0;
+}
+.menuBtn.act > span:after, .menuBtn.act > span:before {
+    background-color: #008877;
+    top: 1px;
+}
+.menuBtn.act > span:after {
+    transform: rotate(45deg);
+}
+.menuBtn.act > span:before {
+    transform: rotate(-45deg);
+}
+
+/* .navbar {
+    width: 80%;
+} */
+
+.suBtn {
+    background-color: #19b698;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
 
 
  /* Slide */

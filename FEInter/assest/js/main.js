@@ -116,3 +116,17 @@ $(document).ready(function(){
         $('.review-slickComment').slick('slickNext');
     });
 });
+
+
+$(document).ready(function(){
+    // menu click event
+    $('.menuBtn').click(function() {
+      $(this).toggleClass('act');
+        if($(this).hasClass('act')) {
+          $('.navbar').addClass('act');
+        }
+        else {
+          $('.navbar').removeClass('act');
+        }
+    });
+  });
