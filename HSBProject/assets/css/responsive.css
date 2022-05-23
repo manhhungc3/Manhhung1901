@@ -19,7 +19,7 @@
     .col {
         width: calc(var(--col-xs) / var(--grid) * 100%);
     }
-    .identify {
+    .product {
         padding: 90px 10px;
     }
     .posts {
@@ -81,7 +81,7 @@
     .benifit {
         padding: 0 85px 0 46px;
     }
-    .identify {
+    .product {
         padding: 90px 70px;
     }
 }
@@ -94,7 +94,7 @@
     .benifit {
         padding: 0 85px 0 46px;
     }
-    .identify {
+    .product {
         padding: 90px 70px;
     }
     .posts {
