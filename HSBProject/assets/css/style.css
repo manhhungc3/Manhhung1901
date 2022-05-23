@@ -113,7 +113,7 @@
     font-size: 2rem;
     line-height: 30px;
     font-weight: 600;
-    color: #2E2A41;
+    /* color: #2E2A41; */
     margin-bottom: 22px;
     position: relative;
 }
@@ -148,7 +148,7 @@
     font-size: 15px;
     line-height: 26px;
     font-weight: 400;
-    color: #7E7FA0;
+    color: var(--aboutText-color);
 }
 
 
@@ -167,7 +167,7 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 45px;
-    color: #2E2A41;
+    /* color: #2E2A41; */
     margin-bottom: 16px;
 }
 
@@ -188,7 +188,7 @@
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color:#7E7FA0;
+    color: var(--aboutText-color);
 }
 
 .review__comment {
@@ -237,7 +237,7 @@
     font-size: 16px;
     line-height: 28px;
     font-weight: 400;
-    color: #7E7FA0;
+    color: var(--aboutText-color);
     margin-bottom: 29px;
 }
 .item__heading {
@@ -245,7 +245,7 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 21px;
-    color: #2E2A41;
+    /* color: #2E2A41; */
     padding-left: 25px;
 }
 .item__heading::after {
@@ -292,14 +292,14 @@
     font-size: 18px;
     line-height: 27px;
     font-weight: 600;
-    color: #2E2A41;
+    /* color: #2E2A41; */
     margin-bottom: 5px;
 }
 
 .product__about {
     font-size: 15px;
     line-height: 24px;
-    color: #7E7FA0;
+    color: var(--aboutText-color);
     font-weight: 400;
 }
 
@@ -373,13 +373,13 @@
     font-size: 15px;
     line-height: 22px;
     font-weight: 500;
-    color: #2E2A41;
+    /* color: #2E2A41; */
 }
 
 .posts__date {
     font-size: 12px;
     line-height: 18px;
-    color: #7E7FA0;
+    color: var(--aboutText-color);
 }
 
 

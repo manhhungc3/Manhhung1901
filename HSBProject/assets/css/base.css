@@ -9,7 +9,9 @@
     --aquaLight-color: #45CCDB;
     --greenLight-color: #48DE57;
     --pink-bg: #FCF3EC;
-    --ballBg-size: 79px
+    --ballBg-size: 79px;
+    --mainText-color: #2E2A41;
+    --aboutText-color: #7E7FA0;
 }
 * {
     margin: 0;
@@ -25,6 +27,7 @@ html {
     letter-spacing: 1px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    color: var(--mainText-color);
 }
 
 .container {
