@@ -22,6 +22,23 @@
 .navbar__link {
     display: block;
     padding: 12px;
+    position: relative;
+}
+
+.navbar__link::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: var(--purple-color);
+	left: 50%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.navbar__item:hover .navbar__link::after {
+	width: 100%;
+	left: 0;
 }
 
 .navbar__link-get,
@@ -41,6 +58,11 @@
 
 .navbar__link-buy {
     background: var(--aqua-color);
+}
+
+.navbar__item:hover .navbar__link-get::after,
+.navbar__item:hover .navbar__link-buy::after {
+    display: none;
 }
 
 
