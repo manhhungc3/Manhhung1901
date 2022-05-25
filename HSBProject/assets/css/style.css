@@ -211,7 +211,20 @@
     font-weight: 400;
     color: var(--aboutText-color);
 }
-
+.review__boxImage {
+    position: relative;
+}
+.review__image--bg {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-color: #F0F9FE;
+    width: 80%;
+    height: 100%;
+    border-radius: 0 30px 30px 0;
+    background-size: cover;
+    background-position: 50% 50%;
+}
 .review__comment {
     display: flex;
     justify-content: center;
