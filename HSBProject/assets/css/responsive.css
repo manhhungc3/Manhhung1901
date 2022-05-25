@@ -1,8 +1,9 @@
-
 @media (max-width: 699px) {
-    
-    .product,
-    .posts {
+    .page-section__benifit {
+        margin-left: calc(var(--ballBg-size) / 2);
+    }
+    .page-section__product,
+    .page-section__posts {
         padding: 90px 0;
     }
 
@@ -54,20 +55,20 @@
 }
 
 @media (min-width: 700px) and (max-width: 1199px) {   
-    .benifit {
+    .page-section__benifit {
         padding: 0 85px 0 46px;
     }
-    .product {
+    .page-section__product {
         padding: 90px 70px;
     }
 }
 
 @media (min-width: 1200px) {  
-    /* .benifit {
-        padding: 0 85px 0 46px;
-    } */
-    .product,
-    .posts {
+    .page-section__benifit {
+        margin-left: var(--ballBg-size);
+    }
+    .page-section__product,
+    .page-section__posts {
         padding: 90px 70px;
     }
     
