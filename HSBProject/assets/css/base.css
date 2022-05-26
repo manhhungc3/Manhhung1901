@@ -57,6 +57,9 @@ a {
 a:hover {
     color: red;
 }
+.mt-24 {
+    margin-top: 24px;
+}
 
 
 /* title */

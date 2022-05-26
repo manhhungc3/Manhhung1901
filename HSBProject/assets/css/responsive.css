@@ -2,10 +2,6 @@
     .page-section__benifit {
         margin-left: calc(var(--ballBg-size) / 2);
     }
-    .page-section__product,
-    .page-section__posts {
-        padding: 90px 0;
-    }
 
     /* Menu mobile */
     .menuBtn {
@@ -56,21 +52,13 @@
 
 @media (min-width: 700px) and (max-width: 1199px) {   
     .page-section__benifit {
-        padding: 0 85px 0 46px;
-    }
-    .page-section__product,
-    .page-section__posts {
-        padding: 90px 0;
+        margin-left: calc(var(--ballBg-size) / 2);
     }
 }
 
 @media (min-width: 1200px) {  
     .page-section__benifit {
-        margin-left: var(--ballBg-size);
-    }
-    .page-section__product,
-    .page-section__posts {
-        padding: 90px 70px;
+        padding-left: var(--ballBg-size) !important;
     }
     
     .navbar__mobile {
