@@ -58,8 +58,9 @@
     .page-section__benifit {
         padding: 0 85px 0 46px;
     }
-    .page-section__product {
-        padding: 90px 70px;
+    .page-section__product,
+    .page-section__posts {
+        padding: 90px 0;
     }
 }
 
