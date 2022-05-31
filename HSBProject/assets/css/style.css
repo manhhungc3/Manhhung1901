@@ -186,7 +186,7 @@
 
 .text-box__heading{
     font-size: 2rem;
-    line-height: 30px;
+    /* line-height: 30px; */
     font-weight: 600;
     margin-bottom: 22px;
     position: relative;
@@ -220,7 +220,7 @@
 
 .text-box__about {
     font-size: 15px;
-    line-height: 26px;
+    line-height: 2;
     font-weight: 400;
     color: var(--aboutText-color);
 }
@@ -237,7 +237,7 @@
 .title__heading {
     font-size: 30px;
     font-weight: 700;
-    line-height: 45px;
+    line-height: 1.8;
     margin-bottom: 16px;
 }
 
@@ -248,7 +248,6 @@
 
 .title__heading--normal {
     font-weight: 500;
-    line-height: 35px;
 }
 .title__heading--normal strong {
     font-weight: 500;
@@ -256,7 +255,6 @@
 
 .title__info {
     font-size: 16px;
-    line-height: 26px;
     font-weight: 400;
     color: var(--aboutText-color);
 }
@@ -320,7 +318,7 @@
 
 .feedback__about {
     font-size: 16px;
-    line-height: 28px;
+    line-height: 1.8;
     font-weight: 400;
     color: var(--aboutText-color);
     margin-bottom: 29px;
@@ -329,7 +327,6 @@
     position: relative;
     font-size: 14px;
     font-weight: 700;
-    line-height: 21px;
     padding-left: 25px;
 }
 .feedback__heading::after {
@@ -381,17 +378,15 @@
 
 .product__heading {
     font-size: 18px;
-    line-height: 27px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
 .product__about {
     font-size: 15px;
-    line-height: 2.4rem;
     color: var(--aboutText-color);
     font-weight: 400;
-
+    line-height: 1.8;
     display: -webkit-box;
     max-height: 9.6rem;
     -webkit-box-orient: vertical;
@@ -400,12 +395,6 @@
     white-space: normal;
     -webkit-line-clamp: 4;
 }
-
-
-
-
-
-
 
 /* Posts */
 
@@ -449,13 +438,11 @@
 
 .box-info__name {
     font-size: 15px;
-    line-height: 22px;
     font-weight: 500;
 }
 
 .box-info__date {
     font-size: 12px;
-    line-height: 18px;
     color: var(--aboutText-color);
 }
 
